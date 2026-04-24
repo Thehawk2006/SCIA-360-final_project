@@ -28,7 +28,7 @@ def main():
         choice = input("\nChoice: ").strip()
 
         if choice == "1":
-            if role == "auditor" or "auditor1":
+            if role == "auditor":
                 print("[i] Auditor view: root-owned processes are hidden. For admin user only!")
             procs = get_processes(role)
             display_processes(procs)

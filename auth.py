@@ -17,7 +17,7 @@ def save_users(users: dict):
         json.dump(users, f, indent=2)
 
 def register_user(username: str, password: str, role: str):
-    if role not in ("admin", "auditor", "auditor1"):
+    if role not in ("admin", "auditor"):
         raise ValueError("admin", "auditor")
     users = load_users()
     if username in users:
