@@ -19,10 +19,11 @@ def main():
         print(" 2. View Memory Usage")
         print(" 3. Save System Snapshot")
         print(" 4. List Saved Logs")
-        print(" 5. Verify log integrity")
+        print(" 5. View Security Audit Log Events")
+        print(" 6. Verify log integrity")
         if role == "admin" or "auditor":
-            print(" 6. Delete a log (For Admin Only)")
-        print(" 7. Exit")
+            print(" 7. Delete a log (For Admin Only)")
+        print(" 8. Exit")
 
         choice = input("\nChoice: ").strip()
 
@@ -51,6 +52,15 @@ def main():
                     print(f" [{i}] {log}")
         
         elif choice == "5":
+            try:
+                with open("logs/security_audit.log", "r") as f:
+                    print("\n--- Security Audit Log Events ---")
+                    for line in f:
+                        print(line.strip())  
+            except FileNotFoundError:
+                print("No security audit logs found.")
+
+        elif choice == "6":
             logs = list_logs()
             if not logs:
                 print("No logs to verify.")
@@ -59,11 +69,11 @@ def main():
                     print(f" [{i}] {log}")
                 idx = input("Select log number: ").strip()
                 try:
-                    verify_log(logs[int](idx))
+                    verify_log(logs[int(idx)])
                 except (ValueError, IndexError):
                     print("Invalid Selection.")
             
-        elif choice == "6":
+        elif choice == "7":
             if not check_permission(role, "delete_log", username):
                 continue
             logs = list_logs()
@@ -78,7 +88,7 @@ def main():
                 except (ValueError, IndexError):
                     print("Invalid selection.")
         
-        elif choice == "7":
+        elif choice == "8":
             print("Goodbye!")
             break
 

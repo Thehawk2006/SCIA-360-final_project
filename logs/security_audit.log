@@ -7,3 +7,8 @@
 {"timestamp": "2026-04-24T13:49:41.031174", "user": "tristen", "type": "LOGIN_FAILED", "detail": "Wrong password"}
 {"timestamp": "2026-04-24T13:50:32.371254", "user": "rowland", "type": "ACCESS_DENIED", "detail": "Auditor 'rowland' attempted restricted action: delete_log"}
 {"timestamp": "2026-04-24T13:51:06.455562", "user": "rowland", "type": "ACCESS_DENIED", "detail": "Auditor 'rowland' attempted restricted action: delete_log"}
+{"timestamp": "2026-04-24T14:50:19.137398", "user": "rowland", "type": "ACCESS_DENIED", "detail": "Auditor 'rowland' attempted restricted action: delete_log"}
+{"timestamp": "2026-04-24T14:53:29.272634", "user": "tristen", "type": "LOGIN_FAILED", "detail": "Wrong password"}
+{"timestamp": "2026-04-24T15:01:32.248044", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-24T15:13:02.380235", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-24T15:44:28.052536", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}

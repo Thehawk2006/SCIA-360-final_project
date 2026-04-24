@@ -44,6 +44,7 @@ def login() -> tuple[str, str] | None:
         log_security_alert(username, "LOGIN_FAILED", "Wrong password")
         return None
     print(f"[+] Welcome, {username} ({stored['role'].upper()})")
+    log_security_alert(username, "LOGIN_SUCCESS", "User logged in successfully")
     return username, stored["role"]
 
 def check_permission(role: str, action: str, username: str) -> bool:
