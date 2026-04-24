@@ -1,0 +1,17 @@
+{
+  "tristen": {
+    "salt": "9b46375561f42020a8361e1f394c5091",
+    "hash": "5bce5b6e9b731f02e95764eb51199836ac8f2c03dce4dd6e3e17e6937b2e6446",
+    "role": "admin"
+  },
+  "robert": {
+    "salt": "fa706072e463f3930dcf837e1d7d4b48",
+    "hash": "447c43be5111a701aa56bfb7a4cb0c5ecc320bcd21a6465d8bce4351506ac2bc",
+    "role": "auditor"
+  },
+  "rowland": {
+    "salt": "9452ad1d26f8283a4196f0ccd64c9ca5",
+    "hash": "6da6b05d82cd11ed7b75e12aa0f67f2396c05055b0b30b65c1cfb7a9844e9c56",
+    "role": "auditor"
+  }
+}

@@ -1,0 +1,9 @@
+{"timestamp": "2026-04-23T15:51:43.196897", "user": "tristen", "type": "LOGIN_FAILED", "detail": "Unknown username"}
+{"timestamp": "2026-04-23T15:52:46.815564", "user": "tristen", "type": "LOGIN_FAILED", "detail": "Unknown username"}
+{"timestamp": "2026-04-23T15:54:16.570859", "user": "robert", "type": "LOGIN_FAILED", "detail": "Unknown username"}
+{"timestamp": "2026-04-24T13:37:37.099669", "user": "wesley", "type": "LOGIN_FAILED", "detail": "Unknown username"}
+{"timestamp": "2026-04-24T13:41:18.356482", "user": "robert", "type": "ACCESS_DENIED", "detail": "Auditor 'robert' attempted restricted action: delete_log"}
+{"timestamp": "2026-04-24T13:43:10.725724", "user": "robert", "type": "ACCESS_DENIED", "detail": "Auditor 'robert' attempted restricted action: delete_log"}
+{"timestamp": "2026-04-24T13:49:41.031174", "user": "tristen", "type": "LOGIN_FAILED", "detail": "Wrong password"}
+{"timestamp": "2026-04-24T13:50:32.371254", "user": "rowland", "type": "ACCESS_DENIED", "detail": "Auditor 'rowland' attempted restricted action: delete_log"}
+{"timestamp": "2026-04-24T13:51:06.455562", "user": "rowland", "type": "ACCESS_DENIED", "detail": "Auditor 'rowland' attempted restricted action: delete_log"}
