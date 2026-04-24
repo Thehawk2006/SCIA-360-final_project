@@ -17,3 +17,6 @@
 {"timestamp": "2026-04-24T16:08:56.461621", "user": "testuser", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
 {"timestamp": "2026-04-24T16:09:52.763122", "user": "testsuser", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
 {"timestamp": "2026-04-24T16:10:08.817980", "user": "testsuser", "type": "ACCESS_DENIED", "detail": "Auditor 'testsuser' attempted restricted action: delete_log"}
+{"timestamp": "2026-04-24T16:29:14.828641", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-24T16:30:56.512272", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-24T16:33:42.267515", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}

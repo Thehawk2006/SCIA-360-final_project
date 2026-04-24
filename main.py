@@ -15,15 +15,23 @@ def main():
 
     while True:
         print(f"\n[{role.upper()}] Main Menu")
-        print(" 1. View Running Processes")
-        print(" 2. View Memory Usage")
-        print(" 3. Save System Snapshot")
-        print(" 4. List Saved Logs")
-        print(" 5. View Security Audit Log Events")
-        print(" 6. Verify log integrity")
-        if role == "admin" or "auditor":
+        if role == "admin":
+            print(" 1. View Running Processes")
+            print(" 2. View Memory Usage")
+            print(" 3. Save System Snapshot")
+            print(" 4. List Saved Logs")
+            print(" 5. View Security Audit Log Events")
+            print(" 6. Verify log integrity")
             print(" 7. Delete a log (For Admin Only)")
-        print(" 8. Exit")
+            print(" 8. Exit")
+        else:
+            print(" 1. View Running Processes")
+            print(" 2. View Memory Usage")
+            print(" 3. Save System Snapshot")
+            print(" 4. List Saved Logs")
+            print(" 5. View Security Audit Log Events")
+            print(" 6. Verify log integrity")
+            print(" 7. Exit")
 
         choice = input("\nChoice: ").strip()
 
@@ -73,7 +81,7 @@ def main():
                 except (ValueError, IndexError):
                     print("Invalid Selection.")
             
-        elif choice == "7":
+        elif choice == "7" and role == "admin":
             if not check_permission(role, "delete_log", username):
                 continue
             logs = list_logs()
@@ -88,7 +96,11 @@ def main():
                 except (ValueError, IndexError):
                     print("Invalid selection.")
         
-        elif choice == "8":
+        elif choice == "7" and role != "admin":
+            print("Goodbye!")
+            break
+
+        elif choice == "8" and role == "admin":
             print("Goodbye!")
             break
 
