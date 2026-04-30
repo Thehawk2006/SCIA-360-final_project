@@ -20,3 +20,50 @@
 {"timestamp": "2026-04-24T16:29:14.828641", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
 {"timestamp": "2026-04-24T16:30:56.512272", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
 {"timestamp": "2026-04-24T16:33:42.267515", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-24T17:48:37.487346", "user": "'testeruser", "type": "LOGIN_FAILED", "detail": "Unknown username"}
+{"timestamp": "2026-04-24T17:49:24.012471", "user": "testeruser", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-24T17:52:23.372511", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-24T18:21:23.661038", "user": "tristen", "type": "LOGIN_FAILED", "detail": "Wrong password"}
+{"timestamp": "2026-04-24T18:21:33.691321", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-24T18:21:37.631275", "user": "tristen", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:03.938742"}
+{"timestamp": "2026-04-24T18:22:36.823582", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-24T18:23:42.035500", "user": "tristen", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:01:05.208269"}
+{"timestamp": "2026-04-24T18:24:51.533281", "user": "testuser", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-24T18:27:49.625863", "user": "testuser", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:02:58.088934"}
+{"timestamp": "2026-04-24T18:28:00.247904", "user": "rowland", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-24T18:28:14.328914", "user": "rowland", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:14.080549"}
+{"timestamp": "2026-04-27T00:23:34.921858", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-27T00:24:27.549590", "user": "tristen", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:52.623776"}
+{"timestamp": "2026-04-27T00:24:39.829157", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-27T00:26:46.942625", "user": "robert", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:02:07.110971"}
+{"timestamp": "2026-04-27T18:35:23.556515", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-27T18:35:35.051574", "user": "robert", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:11.489389"}
+{"timestamp": "2026-04-27T18:37:37.703513", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-27T18:38:20.518034", "user": "tristen", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:42.806882"}
+{"timestamp": "2026-04-27T18:39:28.155997", "user": "testsuser", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-27T18:40:08.689325", "user": "testsuser", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:40.529826"}
+{"timestamp": "2026-04-27T18:44:01.089742", "user": "andrew", "type": "LOGIN_FAILED", "detail": "Unknown username"}
+{"timestamp": "2026-04-27T22:08:30.884375", "user": "tristen", "type": "LOGIN_FAILED", "detail": "Wrong password"}
+{"timestamp": "2026-04-27T22:09:07.310146", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-27T22:10:34.411783", "user": "tristen", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:01:27.100422"}
+{"timestamp": "2026-04-27T22:10:45.592797", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-30T16:43:54.325638", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-30T16:45:25.086006", "user": "tristen", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:01:30.738410"}
+{"timestamp": "2026-04-30T16:45:45.134117", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-30T16:46:14.709723", "user": "robert", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:29.573165"}
+{"timestamp": "2026-04-30T16:46:48.528581", "user": "frostburg", "type": "LOGIN_FAILED", "detail": "Unknown username"}
+{"timestamp": "2026-04-30T16:47:15.768521", "user": "rowland", "type": "LOGIN_FAILED", "detail": "Wrong password"}
+{"timestamp": "2026-04-30T17:27:12.588566", "user": "testuser", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-30T17:35:49.841849", "user": "tristen", "type": "LOGIN_FAILED", "detail": "Wrong password"}
+{"timestamp": "2026-04-30T17:35:58.619594", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-30T17:36:24.317568", "user": "tristen", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:25.689628"}
+{"timestamp": "2026-04-30T17:37:00.600907", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-30T17:37:16.550506", "user": "robert", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:15.943620"}
+{"timestamp": "2026-04-30T21:59:35.827668", "user": "testeruser", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-30T22:08:30.935286", "user": "t-hawk", "type": "LOGIN_FAILED", "detail": "Unknown username"}
+{"timestamp": "2026-04-30T22:09:20.757558", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-30T22:09:33.759493", "user": "robert", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:12.998989"}
+{"timestamp": "2026-04-30T22:10:37.291461", "user": "tristen", "type": "LOGIN_FAILED", "detail": "Wrong password"}
+{"timestamp": "2026-04-30T22:10:45.213654", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-04-30T22:11:22.869290", "user": "tristen", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:37.649918"}
+{"timestamp": "2026-04-30T22:12:14.714294", "user": "testeruser", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:12:38.835388"}

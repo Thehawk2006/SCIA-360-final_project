@@ -1,0 +1,745 @@
+{
+  "metadata": {
+    "created_at": "2026-04-30T17:37:13.183969",
+    "created_by": "robert",
+    "process_count": 121
+  },
+  "memory": {
+    "ram_total_mb": 3901.7,
+    "ram_used_mb": 3310.3,
+    "ram_free_mb": 349.6,
+    "ram_percent": 91.0,
+    "swap_total_mb": 3902.0,
+    "swap_used_mb": 3282.5,
+    "swap_free_mb": 619.5,
+    "swap_percent": 84.1
+  },
+  "processes": [
+    {
+      "pid": 754,
+      "name": "systemd-oomd",
+      "state": "S",
+      "user": "systemd-oom"
+    },
+    {
+      "pid": 762,
+      "name": "systemd-resolved",
+      "state": "S",
+      "user": "systemd-resolve"
+    },
+    {
+      "pid": 769,
+      "name": "systemd-timesyncd",
+      "state": "S",
+      "user": "systemd-timesync"
+    },
+    {
+      "pid": 854,
+      "name": "systemd-networkd",
+      "state": "S",
+      "user": "systemd-network"
+    },
+    {
+      "pid": 912,
+      "name": "avahi-daemon",
+      "state": "S",
+      "user": "avahi"
+    },
+    {
+      "pid": 913,
+      "name": "dbus-daemon",
+      "state": "S",
+      "user": "messagebus"
+    },
+    {
+      "pid": 916,
+      "name": "gnome-remote-desktop-daemon",
+      "state": "S",
+      "user": "gnome-remote-desktop"
+    },
+    {
+      "pid": 919,
+      "name": "polkitd",
+      "state": "S",
+      "user": "polkitd"
+    },
+    {
+      "pid": 957,
+      "name": "avahi-daemon",
+      "state": "S",
+      "user": "avahi"
+    },
+    {
+      "pid": 980,
+      "name": "rsyslogd",
+      "state": "S",
+      "user": "syslog"
+    },
+    {
+      "pid": 1139,
+      "name": "dbus",
+      "state": "S",
+      "user": "lp"
+    },
+    {
+      "pid": 1251,
+      "name": "cups-browsed",
+      "state": "S",
+      "user": "cups-browsed"
+    },
+    {
+      "pid": 1253,
+      "name": "java",
+      "state": "S",
+      "user": "elasticsearch"
+    },
+    {
+      "pid": 1254,
+      "name": "node",
+      "state": "S",
+      "user": "kibana"
+    },
+    {
+      "pid": 1287,
+      "name": "kerneloops",
+      "state": "S",
+      "user": "kernoops"
+    },
+    {
+      "pid": 1296,
+      "name": "Suricata-Main",
+      "state": "S",
+      "user": "suricata"
+    },
+    {
+      "pid": 1313,
+      "name": "kerneloops",
+      "state": "S",
+      "user": "kernoops"
+    },
+    {
+      "pid": 1329,
+      "name": "apache2",
+      "state": "S",
+      "user": "www-data"
+    },
+    {
+      "pid": 1330,
+      "name": "apache2",
+      "state": "S",
+      "user": "www-data"
+    },
+    {
+      "pid": 1396,
+      "name": "splunkd",
+      "state": "S",
+      "user": "splunkfwd"
+    },
+    {
+      "pid": 2366,
+      "name": "splunkd",
+      "state": "S",
+      "user": "splunkfwd"
+    },
+    {
+      "pid": 2684,
+      "name": "java",
+      "state": "S",
+      "user": "elasticsearch"
+    },
+    {
+      "pid": 2906,
+      "name": "rtkit-daemon",
+      "state": "S",
+      "user": "rtkit"
+    },
+    {
+      "pid": 3148,
+      "name": "colord",
+      "state": "S",
+      "user": "colord"
+    },
+    {
+      "pid": 3828,
+      "name": "controller",
+      "state": "S",
+      "user": "elasticsearch"
+    },
+    {
+      "pid": 5546,
+      "name": "systemd",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5550,
+      "name": "(sd-pam)",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5561,
+      "name": "pipewire",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5566,
+      "name": "pipewire",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5569,
+      "name": "wireplumber",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5571,
+      "name": "pipewire-pulse",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5572,
+      "name": "gnome-keyring-daemon",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5573,
+      "name": "dbus-daemon",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5599,
+      "name": "gdm-wayland-session",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5607,
+      "name": "gnome-session-binary",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5671,
+      "name": "gcr-ssh-agent",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5672,
+      "name": "gnome-session-ctl",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5686,
+      "name": "gvfsd",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5694,
+      "name": "gvfsd-fuse",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5696,
+      "name": "gnome-session-binary",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5730,
+      "name": "at-spi-bus-launcher",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5741,
+      "name": "dbus-daemon",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5742,
+      "name": "gnome-shell",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5786,
+      "name": "at-spi2-registryd",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5802,
+      "name": "gnome-shell-calendar-server",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5803,
+      "name": "xdg-permission-store",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5818,
+      "name": "evolution-source-registry",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5820,
+      "name": "gjs",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5843,
+      "name": "ibus-daemon",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5844,
+      "name": "gsd-a11y-settings",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5845,
+      "name": "gsd-color",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5847,
+      "name": "gsd-datetime",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5851,
+      "name": "gsd-housekeeping",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5853,
+      "name": "gsd-keyboard",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5854,
+      "name": "gsd-media-keys",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5856,
+      "name": "gsd-power",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5859,
+      "name": "gsd-print-notifications",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5862,
+      "name": "gsd-rfkill",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5864,
+      "name": "gsd-screensaver-proxy",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5865,
+      "name": "gsd-sharing",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5866,
+      "name": "gsd-smartcard",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5868,
+      "name": "gsd-sound",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5870,
+      "name": "gsd-wacom",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5878,
+      "name": "spice-vdagent",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5893,
+      "name": "Xwayland",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5917,
+      "name": "goa-daemon",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5963,
+      "name": "ibus-memconf",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5969,
+      "name": "ibus-extension-gtk3",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5978,
+      "name": "gsd-printer",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5981,
+      "name": "ibus-portal",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 5985,
+      "name": "gvfs-udisks2-volume-monitor",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6007,
+      "name": "evolution-calendar-factory",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6009,
+      "name": "goa-identity-service",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6028,
+      "name": "gvfs-afc-volume-monitor",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6036,
+      "name": "gvfs-gphoto2-volume-monitor",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6041,
+      "name": "evolution-addressbook-factory",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6051,
+      "name": "gvfs-mtp-volume-monitor",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6059,
+      "name": "gvfs-goa-volume-monitor",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6077,
+      "name": "ibus-engine-simple",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6115,
+      "name": "gvfsd-trash",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6143,
+      "name": "dconf-service",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6148,
+      "name": "gsd-xsettings",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6157,
+      "name": "xdg-desktop-portal",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6162,
+      "name": "xdg-document-portal",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6172,
+      "name": "fusermount3",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6235,
+      "name": "ibus-x11",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6256,
+      "name": "gjs",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6259,
+      "name": "tracker-miner-fs-3",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6263,
+      "name": "xdg-desktop-portal-gnome",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6275,
+      "name": "mutter-x11-frames",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6330,
+      "name": "gsd-disk-utility-notify",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6342,
+      "name": "evolution-alarm-notify",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6376,
+      "name": "gvfsd-metadata",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6415,
+      "name": "xdg-desktop-portal-gtk",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6458,
+      "name": "gnome-terminal-server",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6481,
+      "name": "bash",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6762,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6768,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6769,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6771,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6786,
+      "name": "chrome_crashpad_handler",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6810,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6839,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6885,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6903,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6916,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6917,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 6918,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 7010,
+      "name": "bash",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 7076,
+      "name": "update-notifier",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 7136,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 7475,
+      "name": "pet",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 7569,
+      "name": "bash",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 7647,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 7761,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 7858,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 7872,
+      "name": "code",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 16846,
+      "name": "python3",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 18632,
+      "name": "sshd",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 18650,
+      "name": "bash",
+      "state": "S",
+      "user": "tristen"
+    },
+    {
+      "pid": 18981,
+      "name": "python3",
+      "state": "R",
+      "user": "tristen"
+    }
+  ]
+}

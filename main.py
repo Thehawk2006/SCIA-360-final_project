@@ -1,6 +1,7 @@
-from auth import login, check_permission
+from auth import login, check_permission, log_security_alert
 from kernel_monitor import get_processes, get_memory_info, display_processes, display_memory
 from file_manager import save_snapshot, verify_log, list_logs, delete_log
+from datetime import datetime
 
 def main():
     print("=" * 50)
@@ -12,6 +13,7 @@ def main():
         print("Exiting SSO.")
         return
     username, role = result
+    login_time = datetime.now()
 
     while True:
         print(f"\n[{role.upper()}] Main Menu")
@@ -97,12 +99,21 @@ def main():
                     print("Invalid selection.")
         
         elif choice == "7" and role != "admin":
+            logout_time = datetime.now()
+            duration = logout_time - login_time
+            log_security_alert(username, "LOGOUT", f"User exited SSO | Session duration: {duration}")
             print("Goodbye!")
             break
 
+        
+
         elif choice == "8" and role == "admin":
+            logout_time = datetime.now()
+            duration = logout_time - login_time
+            log_security_alert(username, "LOGOUT", f"User exited SSO | Session duration: {duration}")
             print("Goodbye!")
             break
+
 
         else:
             print("Invalid choice, please try again!")
