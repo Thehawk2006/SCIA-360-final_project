@@ -17,29 +17,23 @@ def main():
 
     while True:
         print(f"\n[{role.upper()}] Main Menu")
-        if role == "admin":
-            print(" 1. View Running Processes")
-            print(" 2. View Memory Usage")
-            print(" 3. Save System Snapshot")
-            print(" 4. List Saved Logs")
-            print(" 5. View Security Audit Log Events")
-            print(" 6. Verify log integrity")
-            print(" 7. Delete a log (For Admin Only)")
-            print(" 8. Exit")
-        else:
-            print(" 1. View Running Processes")
-            print(" 2. View Memory Usage")
-            print(" 3. Save System Snapshot")
-            print(" 4. List Saved Logs")
-            print(" 5. View Security Audit Log Events")
-            print(" 6. Verify log integrity")
-            print(" 7. Exit")
+        print(" 1. View Running Processes")
+        print(" 2. View Memory Usage")
+        print(" 3. Save System Snapshot")
+        print(" 4. List Saved Logs")
+        print(" 5. View Security Audit Log Events")
+        print(" 6. Verify log integrity")
+        print(" 7. Delete a log (For Admin Only)")
+        print(" 8. Exit")
+        
 
         choice = input("\nChoice: ").strip()
 
         if choice == "1":
             if role == "auditor":
                 print("[i] Auditor view: root-owned processes are hidden. For admin user only!")
+            elif role == "admin":
+                print("[i] Admin View")
             procs = get_processes(role)
             display_processes(procs)
 
@@ -83,31 +77,28 @@ def main():
                 except (ValueError, IndexError):
                     print("Invalid Selection.")
             
-        elif choice == "7" and role == "admin":
+        elif choice == "7":
+            if role != "admin":
+                print("Access denied! Only admin users can delete logs")
+                log_security_alert(username, "ACCESS_DENIED", "Auditor attempted to delete log!")
+                continue
+
             if not check_permission(role, "delete_log", username):
                 continue
-            logs = list_logs()
-            if not logs:
-                print("No logs to delete.")
+
             else:
                 for i, log in enumerate(logs):
-                    print(f"  [{i}] {log}")
-                idx = input("Select log to delete: ").strip()
+                    print(f" [{i}] {log}")
+                inx = input("Select a log to delete: ").strip()
                 try:
                     delete_log(logs[int(idx)])
                 except (ValueError, IndexError):
-                    print("Invalid selection.")
-        
-        elif choice == "7" and role != "admin":
-            logout_time = datetime.now()
-            duration = logout_time - login_time
-            log_security_alert(username, "LOGOUT", f"User exited SSO | Session duration: {duration}")
-            print("Goodbye!")
-            break
+                    print("Invalid Selection.")
+
 
         
 
-        elif choice == "8" and role == "admin":
+        elif choice == "8":
             logout_time = datetime.now()
             duration = logout_time - login_time
             log_security_alert(username, "LOGOUT", f"User exited SSO | Session duration: {duration}")
