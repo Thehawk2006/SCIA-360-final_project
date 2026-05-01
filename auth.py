@@ -19,9 +19,11 @@ def save_users(users: dict):
 def register_user(username: str, password: str, role: str):
     if role not in ("admin", "auditor"):
         raise ValueError("admin", "auditor")
+        
     users = load_users()
     if username in users:
         raise ValueError(f"User '{username}' already exists.")
+        
     salt = secrets.token_hex(16)
     hashed = hash_password(password, salt)
     users[username] = {"salt": salt, "hash": hashed, "role": role}
