@@ -1,32 +1,46 @@
+#Program for module A of the Project
+#It reads live processes and memory data directly from the OS kernel
+#It uses a psutil library which interfaces with the /proc files
 import os, psutil
 
+#This functions retrieves a list of all current running processes on the system
+#Admins can see every processes including ones owned by the root
+#Auditors can only see non-root processes enforcing the principle of least privilege
 def get_processes(role: str) -> list[dict]:
-    """
-    Returns list of process dicts.
-    Admins see all processes; auditors skip root-owned ones.
-    """
     processes = []
+
+    #psutil.process_iter loops every active process on the system
+    #It reads from /proc/[pid]/stat on Linux for each process
     for proc in psutil.process_iter(['pid', 'name', 'status', 'username']):
         try:
             info = proc.info
+
             # Auditors cannot see root-owned processes
+            # This enforces the least privilege principle from Module C
             if role == "auditor" and info.get("username") == "root":
                 continue
+
+            #This adds the process info to our list
             processes.append({
-                "pid":      info["pid"],
-                "name":     info["name"] or "N/A",
-                "state":    map_state(info["status"]),
-                "user":     info.get("username", "N/A")
+                "pid":      info["pid"], #This shows the process ID unique identifier
+                "name":     info["name"] or "N/A", #This is the name of the process
+                "state":    map_state(info["status"]), #This converts the state to a single letter to represent it
+                "user":     info.get("username", "N/A") #This shows which user owns this process
             })
         except (psutil.NoSuchProcess, psutil.AccessDenied):
+            #NoSuchProcess means the process ended while we were reading it
+            #AccessDenied means we dont have permission to read it
             continue
     return processes
 
+#This function converts the psutil process status strings to standard OS state codes
+#These codes match what you see in the Linux /proc/[pid]/stat file
+#The states include: R = running, S = sleeping, D = disk-sleep, ST = stopped, Z = zombie, I = idle
 def map_state(status: str) -> str:
     mapping = {
-        "running": "R",
-        "sleeping": "S",
-        "disk-sleep": "D",
+        "running": "R", #This is currently using the CPU
+        "sleeping": "S", #This is waiting for an event like a user input
+        "disk-sleep": "D", 
         "stopped": "ST",
         "zombie": "Z",
         "idle": "I"
