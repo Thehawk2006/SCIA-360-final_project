@@ -130,3 +130,6 @@
 {"timestamp": "2026-05-06T23:40:03.894652", "user": "robert", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:03.194482"}
 {"timestamp": "2026-05-06T23:47:31.615592", "user": "rowland", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
 {"timestamp": "2026-05-06T23:47:37.177723", "user": "rowland", "type": "ACCESS_DENIED", "detail": "Auditor attempted to delete log!"}
+{"timestamp": "2026-05-07T22:19:55.702069", "user": "rowland", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-05-07T22:20:01.435435", "user": "rowland", "type": "ACCESS_DENIED", "detail": "Auditor attempted to delete log!"}
+{"timestamp": "2026-05-07T22:32:30.069639", "user": "rowland", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:12:34.329162"}
