@@ -13,10 +13,5 @@
     "salt": "9452ad1d26f8283a4196f0ccd64c9ca5",
     "hash": "6da6b05d82cd11ed7b75e12aa0f67f2396c05055b0b30b65c1cfb7a9844e9c56",
     "role": "auditor"
-  },
-  "dave": {
-    "salt": "74da0560c028e0d602eae98e2cde4627",
-    "hash": "6e1bde618617ed2110ee5fe2f7d3a329466d0cb8d9fec6014ca593ba0f2d24a1",
-    "role": "admin"
   }
 }
