@@ -133,3 +133,16 @@
 {"timestamp": "2026-05-07T22:19:55.702069", "user": "rowland", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
 {"timestamp": "2026-05-07T22:20:01.435435", "user": "rowland", "type": "ACCESS_DENIED", "detail": "Auditor attempted to delete log!"}
 {"timestamp": "2026-05-07T22:32:30.069639", "user": "rowland", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:12:34.329162"}
+{"timestamp": "2026-05-08T22:50:41.405794", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-05-08T22:52:24.177675", "user": "tristen", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:01:42.763970"}
+{"timestamp": "2026-05-08T22:52:32.255817", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-05-08T22:52:33.791609", "user": "robert", "type": "ACCESS_DENIED", "detail": "Auditor attempted to delete log!"}
+{"timestamp": "2026-05-08T22:52:49.386761", "user": "robert", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:17.127757"}
+{"timestamp": "2026-05-12T01:28:13.998483", "user": "", "type": "LOGIN_FAILED", "detail": "Unknown username"}
+{"timestamp": "2026-05-12T01:39:55.529753", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-05-12T02:03:49.535223", "user": "tristen", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:23:53.984884"}
+{"timestamp": "2026-05-12T02:03:59.460329", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-05-12T13:18:23.754468", "user": "tristen", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-05-12T13:19:51.052316", "user": "tristen", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:01:27.173933"}
+{"timestamp": "2026-05-12T13:20:02.781362", "user": "robert", "type": "LOGIN_SUCCESS", "detail": "User logged in successfully"}
+{"timestamp": "2026-05-12T13:20:19.783547", "user": "robert", "type": "LOGOUT", "detail": "User exited SSO | Session duration: 0:00:17.000054"}

@@ -13,5 +13,15 @@
     "salt": "9452ad1d26f8283a4196f0ccd64c9ca5",
     "hash": "6da6b05d82cd11ed7b75e12aa0f67f2396c05055b0b30b65c1cfb7a9844e9c56",
     "role": "auditor"
+  },
+  "yourname": {
+    "salt": "9966ef39d7d67ed60725c0d54fcc6ca1",
+    "hash": "35a2db869a49e12b2b69f7abf295471cd430b6d83d02818b72504a53bf5fb2c0",
+    "role": "admin"
+  },
+  "member2": {
+    "salt": "9c5b8f304d28498f95f6feca85a86aff",
+    "hash": "c093b328efe4bb2c5a6d263074865d5a3d6f2ed34496ae8bafc2efc61031d027",
+    "role": "auditor"
   }
 }
